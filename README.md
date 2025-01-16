@@ -67,3 +67,4 @@
 |                            프로필                            |  이름  |                   GitHub                   |
 | :----------------------------------------------------------: | :----: | :----------------------------------------: |
 | <img src="https://github.com/jhlee0409.png" width="100px" /> | 이재혁 | [@jhlee0409](https://github.com/jhlee0409) |
+| <img src="https://avatars.githubusercontent.com/u/96245651?v=4" width="100px" /> | 이재혁 | [@soyoonJ](https://github.com/soyoonJ) |
