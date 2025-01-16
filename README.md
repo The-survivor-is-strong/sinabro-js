@@ -68,3 +68,4 @@
 | :----------------------------------------------------------: | :----: | :----------------------------------------: |
 | <img src="https://github.com/jhlee0409.png" width="100px" /> | 이재혁 | [@jhlee0409](https://github.com/jhlee0409) |
 | <img src="https://avatars.githubusercontent.com/u/96245651?v=4" width="100px" /> | 정소윤 | [@soyoonJ](https://github.com/soyoonJ) |
+| <img src="https://avatars.githubusercontent.com/u/115684216?v=4" width="100px" /> | 권현지 | [@HyeonJiKwon](https://github.com/HyeonJiKwon) |
