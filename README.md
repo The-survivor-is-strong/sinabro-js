@@ -70,3 +70,4 @@
 | <img src="https://avatars.githubusercontent.com/u/96245651?v=4" width="100px" /> | 정소윤 | [@soyoonJ](https://github.com/soyoonJ) |
 | <img src="https://avatars.githubusercontent.com/u/115684216?v=4" width="100px" /> | 권현지 | [@HyeonJiKwon](https://github.com/HyeonJiKwon) |
 | <img src="https://avatars.githubusercontent.com/u/53892427?v=4" width="100px" /> | 오소현 | [@osohyun0224](https://github.com/osohyun0224) |
+| <img src="https://avatars.githubusercontent.com/u/83346518?v=4" width="100px" /> | 조하은 | [@HaEunCho248](https://github.com/HaEunCho248) |
