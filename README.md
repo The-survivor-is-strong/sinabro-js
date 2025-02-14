@@ -31,7 +31,7 @@
 - 섹션 6: 쇼핑몰 만들기 [1/3]
 - 섹션 7: 쇼핑몰 만들기 [2/3]
 
-###Week 3
+### Week 3
 
 - 섹션 8: 쇼핑몰 만들기 [3/3]
 - 섹션 9: 웹서버 기초
@@ -61,11 +61,11 @@
 
 ## 👥 스터디 멤버
 
-|                            프로필                            |  이름  |                   GitHub                   |
-| :----------------------------------------------------------: | :----: | :----------------------------------------: |
-| <img src="https://github.com/jhlee0409.png" width="100px" /> | 이재혁 | [@jhlee0409](https://github.com/jhlee0409) |
-| <img src="https://avatars.githubusercontent.com/u/96245651?v=4" width="100px" /> | 정소윤 | [@soyoonJ](https://github.com/soyoonJ) |
+|                                      프로필                                       |  이름  |                     GitHub                     |
+| :-------------------------------------------------------------------------------: | :----: | :--------------------------------------------: |
+|           <img src="https://github.com/jhlee0409.png" width="100px" />            | 이재혁 |   [@jhlee0409](https://github.com/jhlee0409)   |
+| <img src="https://avatars.githubusercontent.com/u/96245651?v=4" width="100px" />  | 정소윤 |     [@soyoonJ](https://github.com/soyoonJ)     |
 | <img src="https://avatars.githubusercontent.com/u/115684216?v=4" width="100px" /> | 권현지 | [@HyeonJiKwon](https://github.com/HyeonJiKwon) |
-| <img src="https://avatars.githubusercontent.com/u/53892427?v=4" width="100px" /> | 오소현 | [@osohyun0224](https://github.com/osohyun0224) |
-| <img src="https://avatars.githubusercontent.com/u/83346518?v=4" width="100px" /> | 조하은 | [@HaEunCho248](https://github.com/HaEunCho248) |
-| <img src="https://avatars.githubusercontent.com/u/101077946?v=4" width="100px" /> | 윤성용 | [@tty5799](https://github.com/tty5799) |
+| <img src="https://avatars.githubusercontent.com/u/53892427?v=4" width="100px" />  | 오소현 | [@osohyun0224](https://github.com/osohyun0224) |
+| <img src="https://avatars.githubusercontent.com/u/83346518?v=4" width="100px" />  | 조하은 | [@HaEunCho248](https://github.com/HaEunCho248) |
+| <img src="https://avatars.githubusercontent.com/u/101077946?v=4" width="100px" /> | 윤성용 |     [@tty5799](https://github.com/tty5799)     |
