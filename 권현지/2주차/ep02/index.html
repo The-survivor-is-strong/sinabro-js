@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Sinabro JavaScript ep02</title>
+  </head>
+  <body>
+    <div class="container mx-auto py-4 px-8 relative">
+      <nav class="flex items-center justify-between">
+        <h1 class="text-3xl font-bold">
+          <span
+            class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+            >My Store</span
+          >
+        </h1>
+        <button
+          type="button"
+          class="btn-cart text-green-900 hover:bg-green-100 rounded-lg py-2 px-4"
+        >
+          <span>Cart</span>
+          <span class="total_count text-xs"></span>
+        </button>
+      </nav>
+      <div
+        id="products"
+        class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4"
+      ></div>
+      <div class="cart-layer fixed inset-0">
+        <div
+          class="cart-dimmed-bg fixed left-0 top-0 bottom-0 w-full bg-black opacity-30"
+        ></div>
+        <div
+          class="fixed right-0 top-0 bottom-0 w-2/3 sm:w-1/2 bg-white py-2 px-4"
+        >
+          <div class="flex justify-end">
+            <button
+              type="button"
+              class="btn-close-cart text-green-800 hover:bg-green-100 rounded-lg py-2 px-4"
+            >
+              Close
+            </button>
+          </div>
+          <div class="cart_items"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
