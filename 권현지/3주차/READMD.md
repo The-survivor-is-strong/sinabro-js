@@ -65,6 +65,8 @@ const module = require('./module.mjs');
 console.log(module);
 ```
 
+---
+
 ### 📌 Node.js용 웹 프레임워크: Express
 
 Express는 Node.js 환경에서 서버를 쉽게 구축할 수 있도록 도와주는 웹 프레임워크이다.
@@ -114,6 +116,9 @@ import cors from 'cors';
 app.use(cors());
 ```
 이 설정을 추가하면 브라우저에서 다른 도메인에서도 API 요청을 보낼 수 있다.
+
+---
+
 
 ### 📌 Express 배포하기
 
