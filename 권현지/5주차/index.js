@@ -1,5 +1,4 @@
-module.exports ={
-  add: (a,b)=>a+b,
-  sub: (a,b)=>a-b,
-  mult: (a,b)=> a*b
-}
+export const ver = 'esm';
+export const add = (a, b) => a + b;
+export const subtract = (a, b) => a - b;
+export const multiply = (a, b) => a * b;
