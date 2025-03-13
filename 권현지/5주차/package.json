@@ -1,20 +1,9 @@
 {
-  "name": "ep05",
-  "version": "0.0.1",
-  "description": "> 프론트엔드 개발자를 위한 실전 자바스크립트 스터디입니다. > 단순한 강의 수강이 아닌, 실무에서의 경험과 지식을 공유하며 함께 성장하는 것을 목표로 합니다.",
-  "type": "module",
-  "main": "index.cjs",
-  "module": "index.js",
-  "exports": {
-    ".":{
-      "require": "./index.cjs",
-      "import": "./index.js"
-    }
-  },
-  "types": "index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT"
+  "name": "root",
+  // 프로젝트가 npm 패키지 저장소로 발행(publish)해도 되는지 여부.(기본값은 false)
+  "private": true,
+  "workspaces":[
+    "lib",
+    "apps/*"
+  ]
 }
