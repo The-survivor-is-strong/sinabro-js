@@ -1,0 +1,31 @@
+{
+  "name": "@khjbest/mini-query-lib",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "types": "./src/main.d.ts",
+  "main": "./dist/mini-query.umd.cjs",
+  "module": "./src/main.js",
+  "exports": {
+    ".": {
+      "import": "./src/main.js",
+      "require": "./dist/mini-query.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "jsdom": "^26.0.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.8"
+  }
+}
