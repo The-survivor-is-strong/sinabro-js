@@ -1,12 +1,19 @@
 import express from 'express';
 import movies from './movie.json' with { type: 'json' };
 import cors from 'cors';
+import fs from 'fs';
+import { getInitHTml } from './dist/index.js';
 
 const app = express()
 const port = 3000;
 app.use(cors());
+app.use(express.static('dist'));
+
 app.get('/', (req, res)=> {
-  res.send('Hello World')
+  fs.readFile('index.html', (err,file)=>{
+    res.send(file.toString().replace('<!-- app -->', getInitHTml['/']))
+  });
+
 })
 app.get('/search', (req, res)=> {
   console.log(req.query.keyword)
