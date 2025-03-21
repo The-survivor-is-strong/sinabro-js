@@ -1,4 +1,4 @@
-# 6주차 블로그 링크
+# 블로그 링크
 
 https://soyoondaily.tistory.com/entry/%EC%8B%9C%EB%82%98%EB%B8%8C%EB%A1%9C-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8-History-API%EC%99%80-SPA-%EB%9D%BC%EC%9A%B0%ED%8C%85
 
