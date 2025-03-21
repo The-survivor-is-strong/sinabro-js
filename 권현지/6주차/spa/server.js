@@ -27,13 +27,18 @@ app.get('/search', (req, res)=> {
   };
   
   fs.readFile('index.html', (err,file)=>{
-    res.send(file.toString().replace('<!-- app -->', getInitHTml['/search'](initialData)))
+    res.send(file.toString().replace(
+      '<!-- app -->', 
+      `<script>
+        window.__INITIAL_DATA__ = ${JSON.stringify(initialData)}
+        </script>` + getInitHTml['/search'](initialData)
+    ))
   });
 
 })
 app.get('/api/search', (req, res)=> {
   console.log(req.query.keyword)
-  res.json(getFilteredMovies(req.query.keyword));
+  res.json({movies:getFilteredMovies(req.query.keyword)});
 })
 app.listen(port,()=>{
   console.log('sdff')
