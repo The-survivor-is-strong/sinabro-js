@@ -1,0 +1,22 @@
+{
+  "name": "mini-query",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "docs": "npm run -w docs docs:dev",
+    "example": "npm run dev -w exsample",
+    "test": "npm test -w @khjbest/mini-query-lib test",
+    "build": "npm run dev -w @khjbest/mini-query-lib build"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
