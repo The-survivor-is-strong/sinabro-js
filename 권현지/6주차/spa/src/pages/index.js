@@ -23,6 +23,6 @@ export const renderInx= ()=>{
     event.preventDefault();
     console.log(event.target.query.value);
     // location.href= `/search?query=${event.target.query.value}`
-    goto(`/search?query=${event.target.query.value}`, { push: true });
+    goto(`/search?keyword=${event.target.query.value}`, { push: true });
   });
 }
