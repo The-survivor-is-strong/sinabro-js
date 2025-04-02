@@ -1,0 +1,16 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && node ./scripts/build.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "static-server dist"
+  },
+  "author": "HyeonJI Kwon",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "mustache": "^4.2.0"
+  }
+}
